@@ -6,6 +6,11 @@ import QueryProvider from "./QueryProvider";
 import AuthProvider from "./AuthProvider";
 import { ThemeProvider } from "./ThemeProvider";
 
+export const metadata: Metadata = {
+  title: "Commodities Management System",
+  description: "Advanced management system for product inventory and insights.",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
